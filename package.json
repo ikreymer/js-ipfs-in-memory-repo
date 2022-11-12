@@ -4,7 +4,7 @@
   "description": "Create js-ipfs with in-memory, offline repo",
   "main": "src/index.js",
   "type": "module",
-  "repository": "https://github.com/ikreymer/ipfs-in-memory-repo",
+  "repository": "https://github.com/ikreymer/js-ipfs-in-memory-repo",
   "license": "MIT",
   "dependencies": {
     "@ipld/dag-cbor": "^8.0.0",
