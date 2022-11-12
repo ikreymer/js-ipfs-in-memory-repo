@@ -1,6 +1,9 @@
 ### js-ipfs-in-memory-repo
 
-A small utility library to create an offline, all in-memory IPFS repo in Javascript
+A small utility library to create an offline, all in-memory IPFS repo in Javascript.
+
+The returned `ipfs` object should be compatible with the [core JS IPFS API](https://github.com/ipfs/js-ipfs/tree/master/docs/core-api),
+for FILES, DAG, and OBJECT Apis, and possibly others.
 
 ```
 import { createInMemoryIPFS } from "ipfs-in-memory-repo";
