@@ -7,13 +7,10 @@
   "repository": "https://github.com/ikreymer/js-ipfs-in-memory-repo",
   "license": "MIT",
   "dependencies": {
-    "@ipld/dag-cbor": "^8.0.0",
-    "@ipld/dag-pb": "^3.0.0",
-    "blockstore-core": "^2.0.2",
-    "datastore-core": "^8.0.2",
-    "ipfs-core": "^0.17.0",
-    "ipfs-repo": "^16.0.0",
-    "multiformats": "^10.0.2"
+    "ipfs-core": "0.15.4"
+  },
+  "scripts": {
+    "test": "ava"
   },
   "devDependencies": {
     "ava": "^5.0.1"
